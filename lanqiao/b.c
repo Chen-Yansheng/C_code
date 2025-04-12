@@ -25,3 +25,12 @@ int main(){
     solve();
     return 0;
 }
+
+
+
+
+
+// git pull 拉取
+//git add . 暂存文件
+//git commit -m  提交事件
+//git push 推送到远程仓库
