@@ -1,0 +1,13 @@
+快慢指针：
+	slow指向middle(左):
+		Node *fast=head , *slow=head;
+		while(fast&&fast->next){...}
+	slow指向middle(右):
+		Node *fast=head->next , *slow=head->next;
+		while(fast&&fast->next){...}
+	slow指向middle-1:
+		Node *fast=head->next , *slow=head;
+		while(fast->next&&fast->next->next){...}
+	slow指向middle+1:
+		Node *fast=head , *slow=head->next;
+		while(fast&&fast->next){...}
